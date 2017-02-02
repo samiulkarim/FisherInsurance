@@ -12,6 +12,6 @@ public class LifeController : Controller
 public IActionResult Quote()
 
     {
-        return Ok("This is the quote of the HomeController");
+        return Ok("This is the quote of the LifeController");
     }
 }
