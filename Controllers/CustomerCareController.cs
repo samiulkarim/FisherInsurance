@@ -9,7 +9,7 @@ public class CustomerCareController : Controller
     public IActionResult Index()
 
     {
-        return Ok("This is the index of the Customer Care Controller");
+        return Ok("This is the index of the CustomerCareController");
     }
 
     [Route("claim/fileclaim")]
