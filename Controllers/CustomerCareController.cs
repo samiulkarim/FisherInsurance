@@ -12,7 +12,7 @@ public class CustomerCareController : Controller
         return Ok("This is the index of the CustomerCareController");
     }
 
-    [Route("claim/fileclaim")]
+    [RouteAttribute("fileclaim")]
 
 
     public IActionResult NewClaim()
@@ -21,7 +21,7 @@ public class CustomerCareController : Controller
         return Ok("This is the new claim of the CustomerCareController");
     }
 
-    [Route("claim/myclaims")]
+    [RouteAttribute("myclaims")]
 
     public IActionResult ClaimHistory()
 
