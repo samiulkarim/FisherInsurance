@@ -7,8 +7,9 @@ public class HomeController : Controller
 
     {
         //return Ok("This is the index of the HomeController");
+         
+         return View();
 
-        return View();
     }
     
 }
